@@ -2,17 +2,17 @@ name: CI/CD
 
 on: push
 
-# jobs:
-#   build:
-#     runs-on: ubuntu-latest
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-#     steps:
-#       - uses: actions/checkout@v2
+    steps:
+      - uses: actions/checkout@v2
 
-#       - name: Run a one-line script
-#         run: echo "Hello, CI/CD!"
+      - name: Run a one-line script
+        run: echo "Hello, CI/CD!"
 
-      #- name: Simulate an error
+      # - name: Simulate an errora
       #  run: echo "About to fail" ; exit 1
 
       - name: Another greeting
